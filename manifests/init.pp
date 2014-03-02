@@ -6,5 +6,5 @@
 class chromedriver {
   require boxen::config
 
-  package { 'chromedriver': }
+  package { 'chromedriver':  ensure => '2.9',  }
 }
